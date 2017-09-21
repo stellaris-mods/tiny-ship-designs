@@ -1,0 +1,99 @@
+guiTypes = {
+	containerWindowType = {
+		name = "ship_design_entry"
+		size = { width = 200 height = 40 }
+
+		buttonType = {
+			name = "render_target"
+			quadTextureSprite = "GFX_dummy_3d_design_entry"
+			position = { x = -1000 y = -1000 }
+			size = { x = 100 y = 100 }
+			dontRender = ""
+		}
+		buttonType = {
+			name = "button"
+			position = { x = -7 y = -12 }
+			quadTextureSprite = "GFX_zfolk_sdc_button"
+			size = { x = 200 y = 34 }
+		}
+		OverlappingElementsBoxType = {
+			name = "icons"
+			position = { x = 8 y = 8 }
+			size = { x = 186 y = 25 }
+			spacing = 10
+			format = right
+		}
+		instantTextBoxType = {
+			name = "label"
+			font = "cg_16b"
+			text = "" # Name
+			position = { x= 12 y= 9 }
+			maxWidth = 160
+			maxHeight = 20
+			fixedsize = yes
+			format = left
+			alwaystransparent = yes
+		}
+		instantTextBoxType = {
+			name = "auto_gen"
+			font = "cg_16b"
+			text = "AUTO_GENERATED_BEST"
+			orientation = "UPPER_RIGHT"
+			text_color_code = "E"
+			position = { x= -204 y= 9 }
+			#maxWidth = 170
+			#maxHeight = 40
+			fixedsize = no
+			format = right
+			alwaystransparent = yes
+		}
+		buttonType = {
+			name = "delete"
+			quadTextureSprite = "GFX_fleet_disband"
+			orientation = "UPPER_RIGHT"
+			position = { x = -16 y = 8 }
+		}
+	}
+
+	containerWindowType = {
+		name = "new_ship_design_entry"
+		size = { width = 128 height = 50 }
+
+		buttonType = {
+			name = "button"
+			position = { x = -5 y = 0 }
+			quadTextureSprite = "GFX_tiles_frame_light"
+			size = {x = 220 y = 50}
+		}
+
+		instantTextBoxType = {
+			name = "label"
+			font = "cg_16b"
+			text = "NAME HERE"
+			position = { x= 0 y= 17 }
+			maxWidth = 206
+			maxHeight = 30
+			fixedsize = yes
+			format = center
+			alwaystransparent = yes
+		}
+	}
+
+	containerWindowType = {
+		name = "ship_design_header_entry"
+		size = { width = 200 height = 24 }
+
+		instantTextBoxType = {
+			name = "label"
+			font = "cg_16b"
+			text = ""
+			position = { x= 5 y= 4 }
+			maxWidth = 200
+			maxHeight = 20
+			fixedsize = yes
+			format = left
+			alwaystransparent = yes
+			text_color_code = "H"
+		}
+	}
+}
