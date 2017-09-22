@@ -4,7 +4,7 @@ return {
 	name = "Tiny Ship Designs",
 	tags = { "Graphics", "Utilities" },
 	picture = "thumb.png",
-	supported_version = "1.6.*",
+	supported_version = "1.8.*",
 	remote_file_id = 808478850,
 	readme = "readme.md",
 	steambb = "steam.bbcode",
